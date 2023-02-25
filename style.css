@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  margin: 70px 150px ;
+}
+
+.content, .form-container, .table-container {
+  margin-top: 40px;
+}
+
+.container {
+  margin-top: 5rem;
+}
+
+.card-container {
+  margin: 2rem 0rem;
+}
+
+.card-container .card {
+  margin-bottom: 2rem;
+}
+
+.gallery-section .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery-section .card-container {
+    justify-content: center;
+  }
+}
